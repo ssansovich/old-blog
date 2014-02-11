@@ -23,7 +23,15 @@
 </head>
 <body>
 <div>
-<i class="fa fa-globe"></i>
+<i id="main" class="fa fa-globe">0</i>
 </div>
+<script type="text/javascript">
+document.getElementById("main").onmouseover=function(){
+	document.getElementById("main").className = "fa fa-exclamation";	
+};
+document.getElementById("main").onmouseout=function(){
+	document.getElementById("main").className = "fa fa-globe";	
+};
+</script>
 </body>
 </html>
