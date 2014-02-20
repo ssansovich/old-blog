@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Why Everyone Should Study Computer Science"
+date:   2014-02-20 14:52:17
+categories: learning
+---
+
+I imagine there is a strong positive correlation between those who chose to study a foreign language and those who to travel to places where the native language is not the one they studied in high school. In other words, I mean that exposure to a foreign language dramatically increases a person’s willingness to navigate a foreign culture.
+
+Technology, to me, is no different. Studying computer science, formally or informally, is a fantastic way to overcome the fear of the unknown. I am always impressed by people who are confident enough to say, “I’ve never done that before, but I can take a look and try to figure it out.” Even if that person fails to fix the problem, he or she will likely take away something from the process: a better perspective on whatever problem she was trying to solve and the gratitude of the person she was trying to help.
+Technology will change, but attitude in this respect does not.
+
+Again, it’s not so much a matter of being able to talk about any given technological subject – although plenty of people manage to do that – but rather a facility and willingness to listen, to tinker, and to learn. The first taste of knowledge espouses confidence and curiosity. We see it in children all the time. This is something that I think we need to push hard for in a world where our interactions with technology are being relegated to taps and swipes. To be clear, I think that these abstractions are great, but they are still abstractions. They make technology feel less like technology, and most powerful and important design trends are successful for that reason.
+
+Studying computer science, on the other hand, re-exposes the parts of the systems that we use every day. Just like studying a foreign language might help a student think about subtleties of the language they speak at home and with their friends. I learned more about my native language in Spanish class than I ever did in any of my English classes.
+
+People ask me, “Should I take [insert intro CS course here]?” My answer is always an emphatic yes. I’m encouraged by all of the efforts out there to increase computer literacy and truly believe that there are extraordinary gains to be realized in the coming years as access to computer science education (and education in general) is democratized. All the power to you, autodidacts. At least, it sure looks like it’s headed that way.

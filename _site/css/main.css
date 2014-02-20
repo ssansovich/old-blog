@@ -14,15 +14,20 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
+  font: 20px Helvetica, Arial, sans-serif;
+  font-weight: 300;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-size: 120%; }
 
 h1 { margin-bottom: 1em; }
+h2 {
+  font-size:2em;
+  text-align: left;
+  line-height:1.1em;
+}
 p { margin: 1em 0; }
 
 a         { color: #00a; }
@@ -56,9 +61,8 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
   text-align: justify;
-  width: 42em;
+  width: 32em;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
@@ -91,7 +95,11 @@ a:visited { color: #a0a; }
 }
 
 .meta {
-  color: #aaa;
+  color: #ccc;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.8em;
+  margin-top:0; /* Clear from p style */
 }
 
 .footer {
