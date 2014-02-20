@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"></meta>
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<style type="text/css">
+		html, body {
+			background-color: #111;
+			color:#4DACFF;
+			margin:0;
+			padding:0;
+		}
+		i { font-size:100px; }
+		div {
+			width:100%;
+			height:100px;
+			text-align:center;
+			position:absolute;
+			top:50%;
+			margin-top:-50px;
+		}
+	</style>
+</head>
+<body>
+<div>
+<i id="main" class="fa fa-globe"></i>
+</div>
+<script type="text/javascript">
+document.getElementById("main").onmouseover=function(){
+	document.getElementById("main").className = "fa fa-exclamation-circle";	
+};
+document.getElementById("main").onmouseout=function(){
+	document.getElementById("main").className = "fa fa-globe";	
+};
+</script>
+</body>
+</html>

@@ -1,37 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8"></meta>
-	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-	<style type="text/css">
-		html, body {
-			background-color: #111;
-			color:#4DACFF;
-			margin:0;
-			padding:0;
-		}
-		i { font-size:100px; }
-		div {
-			width:100%;
-			height:100px;
-			text-align:center;
-			position:absolute;
-			top:50%;
-			margin-top:-50px;
-		}
-	</style>
-</head>
-<body>
-<div>
-<i id="main" class="fa fa-globe"></i>
+---
+layout: default
+title: Your New Jekyll Site
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 </div>
-<script type="text/javascript">
-document.getElementById("main").onmouseover=function(){
-	document.getElementById("main").className = "fa fa-exclamation-circle";	
-};
-document.getElementById("main").onmouseout=function(){
-	document.getElementById("main").className = "fa fa-globe";	
-};
-</script>
-</body>
-</html>
