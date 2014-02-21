@@ -22,17 +22,22 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-size: 120%; }
 
-h1 { margin-bottom: 1em; }
-h2 {
+h1 {
   font-size:2em;
   text-align: left;
   line-height:1.1em;
+  margin-bottom: 1em;
 }
+
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a         { color: #000; }
+a:hover   { color: #777; }
+a:visited { color: #000; }
+
+h1 a, h2 a {
+  text-decoration: none;
+}
 
 /*****************************************************************************/
 /*
@@ -81,10 +86,6 @@ a:visited { color: #a0a; }
   color: #a00;
 }
 
-.title a:hover {
-  color: #000;
-}
-
 .header a.extra {
   color: #aaa;
   margin-left: 1em;
@@ -99,7 +100,8 @@ a:visited { color: #a0a; }
   text-transform: uppercase;
   font-weight: 700;
   font-size: 0.8em;
-  margin-top:0; /* Clear from p style */
+  margin:0 0 0.2em 0; /* Clear from p style */
+
 }
 
 .footer {
