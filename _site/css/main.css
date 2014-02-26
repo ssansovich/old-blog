@@ -104,6 +104,13 @@ h1 a, h2 a {
 
 }
 
+blockquote {
+  padding:0 2.4em;
+  color:#777;
+}
+
+img { width: 100%;}
+
 .footer {
   font-size: 80%;
   color: #666;
