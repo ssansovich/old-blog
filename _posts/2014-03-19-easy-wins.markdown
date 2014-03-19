@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Easy Wins"
+date:   2014-03-19 15:22:00
+---
+
+> “We should appreciate what we are doing. There is no preparation for something else.”
+> > ― Shunryu Suzuki, ZEN MIND, BEGINNER'S MIND
+
+The first notable programming project of Bill Gates, who started coding on a block of GE computer time when he was in eighth grade, was tic-tac-toe. Now, this wasn’t particularly novel (the first game of tic-tac-toe on a computer was programmed in 1951), and I doubt it had much of a chance of being lucrative. The important thing (for all of us), though, is that building this game delighted him enough to keep him interested. "There was just something neat about the machine," Gates reflected. He later noted, “it was hard to tear myself away from a machine at which I could so unambiguously demonstrate success.” That is a profound insight. Those little coding projects, however simple they might seem, were outright successes to young Gates, enough to motivate him to continue learning.
+
+My experience, however, was more frustrating. I had dabbled with basic web development as a kid, and even at 13 or 14, I realized that my ideas ended up working and looking like total crap. So I gave it up for a while. I was a 19-year-old university student when I first started to learn to code, for real this time, in David Malan’s widely known and widely reminisced intro to computer science course. The first assignment was to build something – pretty much anything – with an application called [Scratch][scratch], which was built to teach basic computer science concepts to children, all without writing a single line of code.
+
+Ultimately, that first assignment sparked an initial interest in building things on the computer for me and around 200 other students, most of whom had never coded before and thought the idea of learning to code was daunting [1]. Since then, the course has ballooned to over 500 students per year, generated countless projects and probably a handful of companies. That first project provided us with an easy win. It was something that we could all succeed at – despite our skill levels. It, I believe, is an extremely important part of the equation that fuels the popularity of Malan’s class.
+
+### Another angle
+Tim Ferriss, one of pop culture’s most famous autodidacts, makes this abundantly clear in his latest book, The Four Hour Chef. Tim is focus on one goal for his readers – all eagerly attempting to learn how to cook – to achieve easy wins. He knows that if he fails to provide early successes, his readers will become quickly frustrated and quit. His first recipe, just like Malan’s first homework assignment, is not necessarily optimized for utility but rather for likelihood of success.
+
+### Application: Onboarding new hires
+Some very successful companies make it as easy as possible for new employees to chalk up that easy win. At Etsy, there is “[one hard and fast rule][etsy] for new Engineers on their first day: deploy to production”. Zach Holman explains that GitHub has gone to lengths to lower the barrier of [pushing code on day one][github]. He words it better than I can but the idea is to promote a culture of both efficiency and solidarity. They have intentionally worked towards building an experience that allows new hires to hit the ground running, cemented with a tangible easy win.
+
+### Application: Onboarding Users
+After looking at [UserOnboard.com’s breakdown of tumblr’s user onboarding process][useronboarding.com], I realized that the tumblr design team optimizes for the easy win as well. If you’ve signed up for tumblr in the last, say, 6 months, you’ll realize that they have done two things masterfully:
+
+1. Clearly defined the easy win: “Find blogs. Follow five.”
+2. Dramatically reduced the friction for a new user to succeed.
+
+The “easy win” is to provide them with new content immediately. This quite obviously is much easier than expecting someone to write a blog post.
+
+### Conclusion
+In both of these cases, the feeling of success and satisfaction is what drives engagement. By focusing on the probability rather than the magnitude of a win, you increase the chance for success and give people a taste of what your product can deliver, whether it is a CS course, a book, or a webapp. Conversely, you reduce the risk of frustration, which is what ultimately drives churn. It’s an easy win-win.
+
+
+[1] Malan and the teaching staff had conducted a survey to collect this information. I don’t have the data or remember the exact numbers, but at least a plurality had no previous coding experience.
+
+[scratch]: scratch.mit.edu
+[etsy]: http://codeascraft.com/2012/03/13/making-it-virtually-easy-to-deploy-on-day-one/
+[github]: http://zachholman.com/posts/scaling-github-employees/
+[useronboarding.com]: http://www.useronboard.com/how-tumblr-onboards-new-users/
+

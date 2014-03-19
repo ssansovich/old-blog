@@ -123,6 +123,11 @@ blockquote {
 
 img { width: 100%;}
 
+ol > li {
+  margin-left:1.4em;
+  padding-left:0.2em;
+}
+
 .footer {
   font-size: 80%;
   color: #666;
@@ -165,6 +170,7 @@ img { width: 100%;}
 
 .post ul, .post ol {
   margin-left: 1.35em;
+  width:100%;
 }
 
 .post code {
