@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "The Next 1 Billion: Why Facebook Bought WhatsApp in two pictures"
-date:   2014-02-20 14:52:17
-categories: acquisitions whatsapp
+date:   2014-02-26 14:52:17
+categories: tech
 ---
 
 The Internet is abuzz with discussion about the WhatsApp acquisition. I doubt I am the first person to arrive at this thought, but I wanted to point out my hypothesis for why Facebook bought WhatsApp. With the Instagram acquisition (and the Snapchat offer), it was about access to people outside Facebook's evolving demographics. For Instagram/Snapchat, it was about young people. For WhatsApp, it was about those outside the "developed world."
@@ -16,6 +16,8 @@ There are two points that form what I believe to be a compelling case:
 National Geographic put together an eye-opening collection of images about the state of development throughout the world. If I may bracket issues surrounding income inequality for just a moment, I'd want to point out data about technology penetration on the fourth slide.
 
 As you'll see, Internet adoption for the "upper middle" segment of the world's population (those with $3,946 to $12,195 in annual income) is at 29.9%. Remarkably, cell phone usage for that same group of people is an incredible 92%.
+
+In other words, the de facto technology driving Internet access for this part of the world is the mobile phone &mdash; leapfrogging the PC.
 
 ### TextIt's blog about the [WhatsApp team building J2ME apps][textit]
 
@@ -31,7 +33,7 @@ All that hard work will become less relevant over time (like anything), but let'
 
 ### Facebook bought access to the next 1 billion
 
-It's a long-term play, considering that WhatsApp will operate under its own brand as a standalone team, but it seems that Facebook bought an access point for the users it cannot serve, those that currently do not have traditional Internet access.
+It's a long-term play, considering that WhatsApp will operate under its own brand as a standalone team, but it seems that Facebook bought an access point for the users it cannot serve - those that currently do not have traditional Internet access.
 
 It's clear too that Facebook now has usage data on an entirely different part of the world's population that it does not cover. Given WhatsApp already very large userbase, this gives them an incredible ability to determine where cellphone adoption is increasing, how OS adoption is changing, where cellular/wifi coverage is provided, among many other things. The insights are endless, I think, and will continually inform Facebook's global strategy over the long term.
 
