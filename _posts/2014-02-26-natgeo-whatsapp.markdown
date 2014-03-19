@@ -17,7 +17,7 @@ National Geographic put together an eye-opening collection of images about the s
 
 As you'll see, Internet adoption for the "upper middle" segment of the world's population (those with $3,946 to $12,195 in annual income) is at 29.9%. Remarkably, cell phone usage for that same group of people is an incredible 92%.
 
-In other words, the de facto technology driving Internet access for this part of the world is the mobile phone &mdash; leapfrogging the PC.
+In other words, the de facto technology driving connectivity for this part of the world is the mobile phone &mdash; leapfrogging the PC, which lags at 11.9%.
 
 ### TextIt's blog about the [WhatsApp team building J2ME apps][textit]
 
