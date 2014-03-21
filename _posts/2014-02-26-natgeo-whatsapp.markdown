@@ -2,10 +2,11 @@
 layout: post
 title:  "The Next 1 Billion: Why Facebook Bought WhatsApp in two pictures"
 date:   2014-02-26 14:52:17
-categories: tech
 ---
 
 The Internet is abuzz with discussion about the WhatsApp acquisition. I doubt I am the first person to arrive at this thought, but I wanted to point out my hypothesis for why Facebook bought WhatsApp. With the Instagram acquisition (and the Snapchat offer), it was about access to people outside Facebook's evolving demographics. For Instagram/Snapchat, it was about young people. For WhatsApp, it was about those outside the "developed world."
+
+<!-- end_excerpt -->
 
 There are two points that form what I believe to be a compelling case:
 

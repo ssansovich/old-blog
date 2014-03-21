@@ -6,6 +6,8 @@ date:   2014-03-19 15:25:00
 
 It’s common sense that deals get done at the partner level. But that doesn’t mean deals need to start at the partner level. Paul Graham has said [not to waste time with associates][pg], and I concede that he has a point. It’s undoubtedly true, however, that associates facilitate deals, and a large number of successful firms rely on their associates’ outreach efforts to stimulate deal flow. The process will vary depending on the firm, but the associates are there for one reason: to help the partners get deals done.
 
+<!-- end_excerpt -->
+
 A lot of articles cover what you should ask a VC to determine a good fit, alignment, and interest. That is not the purpose of this post. Instead, I’d like to provide a couple of pointers that will be helpful to ensure and evaluate whether the associate you’re talking to will be an effective communicator of your product, your vision, and your goals to the rest of the investment committee.
 
 ### What are a few things that get you excited about a company?

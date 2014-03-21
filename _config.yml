@@ -2,6 +2,4 @@ name: Scott Sansovich
 markdown: redcarpet
 pygments: true
 
-# Only First P Plugin
-only_first_p:
-    show_read_more_link: false
+excerpt_separator: <!-- end_excerpt -->
