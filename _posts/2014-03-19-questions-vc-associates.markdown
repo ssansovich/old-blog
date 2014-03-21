@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Questions You Should Ask VC Associates"
+title:  "Questions You Should Always Ask VC Associates"
 date:   2014-03-19 15:25:00
 ---
 

@@ -5,7 +5,7 @@ date:   2014-03-19 15:22:00
 ---
 
 > “We should appreciate what we are doing. There is no preparation for something else.”
-> > ― Shunryu Suzuki, ZEN MIND, BEGINNER'S MIND
+> <small> Shunryu Suzuki, ZEN MIND, BEGINNER'S MIND</small>
 
 The first notable programming project of Bill Gates, who started coding on a block of GE computer time when he was in eighth grade, was tic-tac-toe. Now, this wasn’t particularly novel (the first game of tic-tac-toe on a computer was programmed in 1951), and I doubt it had much of a chance of being lucrative. The important thing (for all of us), though, is that building this game delighted him enough to keep him interested. "There was just something neat about the machine," Gates reflected. He later noted, “it was hard to tear myself away from a machine at which I could so unambiguously demonstrate success.” That is a profound insight. Those little coding projects, however simple they might seem, were outright successes to young Gates, enough to motivate him to continue learning.
 

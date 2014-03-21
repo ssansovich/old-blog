@@ -15,15 +15,15 @@ html, body { height: 100%; }
 body {
   font: 22px/26px 'EB Garamond',Georgia,Cambria,"Times New Roman",Times,serif;
   font-weight: 300;
-  text-align: center;
   color:#444;
 }
 
 a {
   color: #0484e4;
-  text-decoration:none;
+  text-decoration:none !important;
 }
-a:hover   { color: #0265AF; }
+
+a:hover   { color: #0265AF !important; }
 a:visited { color: #0484e4; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -42,6 +42,7 @@ h1 {
 h2 {
   font-size:1.6em;
   color:#333;
+  margin:0 0 0.6em 0;
 }
 
 h3 {
@@ -50,7 +51,7 @@ h3 {
   color: #777;
 }
 
-p { margin: 1em 0; }
+p { margin: 0 0 2em 0; }
 
 /*****************************************************************************/
 /*
@@ -61,11 +62,11 @@ p { margin: 1em 0; }
 #home .post {
   padding-bottom:50px;
   border-bottom:1px solid #efefef;
-  margin-bottom:50px;
+  margin-bottom:20px;
 }
 
 #home .post:last-child {
-  border-bottom:none;
+  border-bottom:0;
   margin-bottom:0;
 }
 
@@ -109,8 +110,8 @@ p { margin: 1em 0; }
 
 .title {
   display: inline-block;
-  margin-bottom: 1.5em;
-  font-size:24px;
+  margin: 1.5em 0;
+  font-size: 24px;
 }
 
 .title a {
@@ -131,14 +132,12 @@ p { margin: 1em 0; }
   text-transform: uppercase;
   font-weight: 700;
   font-size: 0.8em;
-  margin:0 0 0.2em 0; /* Clear from p style */
+  margin:0 0 0.2em 0 !important; /* Clear from p style */
 
 }
 
-blockquote {
-  padding:0 2.4em;
-  color:#777;
-}
+blockquote   { margin:2em 0; }
+blockquote p { margin-top:0em; }
 
 img { width: 100%;}
 
