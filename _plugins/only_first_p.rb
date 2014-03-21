@@ -24,9 +24,10 @@ module Jekyll
     
     def first_img(post)
       begin
-        img = "<img src='"
-        img << Nokogiri::HTML(post["content"]).at_css("img")['src']
-        img << "'/>"  
+
+        doc = Nokogiri::HTML(post["content"])
+        src = doc.at_css("img")['src']
+        img = "<img src='#{src}'/>"  
       rescue
         img = ""
       end
