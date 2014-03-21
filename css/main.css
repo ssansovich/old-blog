@@ -13,7 +13,7 @@
 html, body { height: 100%; }
 
 body {
-  font: 20px/24px 'EB Garamond',Georgia,Cambria,"Times New Roman",Times,serif;
+  font: 22px/26px 'EB Garamond',Georgia,Cambria,"Times New Roman",Times,serif;
   font-weight: 300;
   text-align: center;
   color:#444;
@@ -41,6 +41,7 @@ h1 {
 
 h2 {
   font-size:1.6em;
+  color:#333;
 }
 
 h3 {
@@ -54,6 +55,23 @@ p { margin: 1em 0; }
 /*****************************************************************************/
 /*
 /* Home
+/*
+/*****************************************************************************/
+
+#home .post {
+  padding-bottom:50px;
+  border-bottom:1px solid #efefef;
+  margin-bottom:50px;
+}
+
+#home .post:last-child {
+  border-bottom:none;
+  margin-bottom:0;
+}
+
+/*****************************************************************************/
+/*
+/* All Posts
 /*
 /*****************************************************************************/
 .posts {
@@ -79,7 +97,7 @@ p { margin: 1em 0; }
 
 .site {
   text-align: justify;
-  width: 32em;
+  width: 30em;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
@@ -92,6 +110,7 @@ p { margin: 1em 0; }
 .title {
   display: inline-block;
   margin-bottom: 1.5em;
+  font-size:24px;
 }
 
 .title a {

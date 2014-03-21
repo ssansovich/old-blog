@@ -8,7 +8,7 @@ module Jekyll
           "read_more_link_text" => "Read more"
     }
     
-    def only_first_p(post)       
+    def first_p(post)       
       output = "<p>"
       output << Nokogiri::HTML(post["content"]).at_css("p").inner_html
       output << %{</p>}
@@ -22,28 +22,15 @@ module Jekyll
       output
     end    
     
-    def post_teaser(post)       
-      
-      # include the first image
+    def first_img(post)
       begin
-        output = "<img src='"
-        output << Nokogiri::HTML(post["content"]).at_css("img")['src']
-        output << "'>"  
+        img = "<img src='"
+        img << Nokogiri::HTML(post["content"]).at_css("img")['src']
+        img << "'/>"  
       rescue
+        img = ""
       end
-      
-      # include the first paragraph
-      output << "<p>"
-      output << Nokogiri::HTML(post["content"]).at_css("p").inner_html
-      output << %{</p>}
-      
-      if only_first_p_config()['show_read_more_link']
-        output << %{<a class="readmore" href="#{post["url"]}">}        
-        output << only_first_p_config()['read_more_link_text']        
-        output << %{</a>}
-      end
-
-      output
+      img
     end  
 
     def only_first_p_config
