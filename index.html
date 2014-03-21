@@ -7,6 +7,7 @@ title: sansovi.ch
   {% for post in site.posts %}
     <p class="meta">{{ post.date | date_to_string }}</p>
     <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-    {{ post.content }}
+    <!-- {{ post.content }} -->
+    {{ post | post_teaser }}
   {% endfor %}
 </div>
