@@ -4,6 +4,8 @@ title:  "Easy Wins"
 date:   2014-03-19 15:22:00
 ---
 
+![girl with hoop]({{ site.url }}/images/twnsnd.co-girl-hoop.jpg)
+
 > “We should appreciate what we are doing. There is no preparation for something else.”
 > <small> Shunryu Suzuki, ZEN MIND, BEGINNER'S MIND</small>
 

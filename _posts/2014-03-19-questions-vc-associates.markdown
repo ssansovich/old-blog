@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "Questions You Should Always Ask VC Associates"
-date:   2014-03-19 15:25:00
+date:   2014-03-21 18:40:00
 ---
+
+![meeting]({{ site.url }}/images/unsplash.com-meeting.jpg)
 
 It’s common sense that deals get done at the partner level. But that doesn’t mean deals need to start at the partner level. Paul Graham has said [not to waste time with associates][pg], and I concede that he has a point. It’s undoubtedly true, however, that associates facilitate deals, and a large number of successful firms rely on their associates’ outreach efforts to stimulate deal flow. The process will vary depending on the firm, but the associates are there for one reason: to help the partners get deals done.
 

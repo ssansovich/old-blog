@@ -4,6 +4,8 @@ title:  "Why Everyone Should Study Computer Science"
 date:   2014-02-20 14:52:17
 ---
 
+![computers]({{ site.url }}/images/unsplash.com-cs.jpg)
+
 I imagine there is a strong positive correlation between those who chose to study a foreign language and those who to travel to places where the native language is not the one they studied in high school. In other words, I mean that exposure to a foreign language dramatically increases a person’s willingness to navigate a foreign culture.
 
 <!-- end_excerpt -->
