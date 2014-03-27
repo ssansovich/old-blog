@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Nurturing the rolodex: Does distance affect acquisitions?"
+title:  "Nurturing the rolodex: how does distance affect acquisitions?"
 date:   2014-03-27 11:40:00
 ---
 
