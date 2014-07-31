@@ -136,6 +136,10 @@ p { margin: 0 0 1.3em 0; }
 
 }
 
+.content {
+  margin-top:1.6em;
+}
+
 blockquote   { margin:2em 0; }
 blockquote p { margin-top:0em; }
 
