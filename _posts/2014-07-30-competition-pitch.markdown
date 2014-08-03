@@ -20,14 +20,6 @@ Instead, be direct by positioning your product in relationship to existing produ
 
 Like the pieces on a Go board, the competition represents all the areas of the grid that are currently taken. It’s your job to show which spaces are open and why there’s room to expand given the current set up.
 
-This tactic reinforces a number of things for you:
-
-1. The customer's problem
-2. Who buys your product and who uses it (they're often different people!)
-2. The market trends opportunities
-3. The status quo
-4. Feature gaps
-
 It's similar to saying something like "We're Uber but for..." You cover a lot of ground with less cognitive overhead because people are familiar with that product.
 
 ### Educate the person across the table
@@ -41,8 +33,17 @@ Reid Hoffman explains two key points on [this topic][hoffman]:
 
 The last part is important. You, as the domain expert, can provide a conceptual framework of things that customers value. This might be power vs. ease-of-use, specific vs. general, customizable vs. standardized, etc.
 
-Use this chance to explain specifically what you’ve built and why you think it’s better. VCs will inevitably do their own research, which will of course drum up questions that you may or may not have a chance to address.
+The best way I've seen someone talk about competition is by acknowledging that it addresses certain things well, but there is a *new trend or new technology that enables a new service to enter the market*. Tom Tunguz refers to this as [invevitability][tunguz].
+
+A few examples of what this might look like:
+
+AOL/AIM brought people on the internet and democratized it as a communication tool, but the increasing level of comfort with the internet will enable a new service to use real identities and continuously improving broadband speeds will empower users to upload images. This makes way for Facebook.
+
+Constant Contact has shown that email market is a huge opportunity and can deliver large ROI for enterprise customers. The proliferation of SaaS CRM has created a new opportunity to implement rules and triggers to automate marketing processes. This makes way for Marketo.
 
 By guiding their thinking, you can set yourself up for success. Show your knowledge of the space, convince your audience that you’ve done your homework and are confident in your solution. That confidence will be contagious.
 
+<small>Many thanks to Bill Rice <a href="https://twitter.com/ricew">@ricew</a> for edits and suggestions.</small>
+
 [hoffman]: http://reidhoffman.org/linkedin-pitch-to-greylock/
+[tunguz]: http://tomtunguz.com/inevitability/
