@@ -33,7 +33,7 @@ Reid Hoffman explains two key points on [this topic][hoffman]:
 
 The last part is important. You, as the domain expert, can provide a conceptual framework of things that customers value. This might be power vs. ease-of-use, specific vs. general, customizable vs. standardized, etc.
 
-The best way I've seen someone talk about competition is by acknowledging that it addresses certain things well, but there is a *new trend or new technology that enables a new service to enter the market*. Tom Tunguz refers to this as [invevitability][tunguz].
+The best way I've seen someone talk about competition is by acknowledging that it addresses certain things well, but there is a *new trend or new technology that enables a new service to enter the market*. Tom Tunguz refers to this as [inevitability][tunguz].
 
 A few examples of what this might look like:
 
