@@ -104,18 +104,50 @@ p { margin: 0 0 1.3em 0; }
 }
 
 .header a {
-  font-weight: bold;
   text-decoration: none;
 }
 
 .title {
   display: inline-block;
-  margin: 1.5em 0;
-  font-size: 24px;
+  width:100%;
+  font-size: 20px;
+  font-weight:700;
+  text-align:center;
+  text-transform:uppercase;
+}
+
+.header {
+  padding: 1.5em 0em;
+  border-bottom: 1px solid #eee;
+}
+
+.header ul {
+  text-align:center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header ul li {
+  display: inline;
+  padding:0px 10px;
+  font-family:"Open Sans", "Helvetica Neue",Helvetica,sans-serif;
+  font-weight:300 !important;
+  font-size:11px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+}
+
+.header ul li a {
+  color:#333;
 }
 
 .title a {
-  color: #a00;
+  color: #ccc;
+}
+
+.title a:hover {
+  color:#777;
 }
 
 .header a.extra {
@@ -157,7 +189,7 @@ ol > li {
   font-size: 80%;
   color: #666;
   border-top: 4px solid #eee;
-  margin-top: 2em;
+  margin: 2em 0em;
   overflow: hidden;
 }
 
@@ -184,6 +216,7 @@ ol > li {
 /*
 /* Posts
 /*
+/*****************************************************************************/
 
 .post pre {
   border: 1px solid #ddd;

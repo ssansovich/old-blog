@@ -50,8 +50,13 @@
 
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+          <div class="header col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
             <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+            <ul>
+              <li><a target="_blank" href="http://www.twitter.com/slsansovich">Twitter</a></li>
+              <li><a target="_blank" href="http://www.linkedin.com/pub/scottsansovich">LinkedIn</a></li>
+              <li><a target="_blank" href="mailto:ssansovich@gmail.com">Email</a></li>
+            </ul>
           </div>
           <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 content">
 
@@ -59,15 +64,7 @@
 
             {% include sharing.html %}
 
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Scott Sansovich<br/>
-                  <a href="https://twitter.com/slsansovich" target="_blank">@slsansovich</a>
-                </p>
-              </div>
-            </div>
-
+            {% include footer.html %}
         </div>
       </div>
   </body>
