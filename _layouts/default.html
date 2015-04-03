@@ -30,15 +30,34 @@
     </head>
     <body>
 
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId      : '967368733275550',
+            xfbml      : true,
+            version    : 'v2.3'
+          });
+        };
+
+        (function(d, s, id){
+           var js, fjs = d.getElementsByTagName(s)[0];
+           if (d.getElementById(id)) {return;}
+           js = d.createElement(s); js.id = id;
+           js.src = "//connect.facebook.net/en_US/sdk.js";
+           fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));
+      </script>
+
       <div class="container">
         <div class="row">
-          <div class="col-sm-3 col-xs-12">
+          <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
             <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a target="_blank" href="http://www.twitter.com/slsansovich">@slsansovich</a>
           </div>
-          <div class="col-sm-6 content">
+          <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 content">
 
             {{ content }}
+
+            {% include sharing.html %}
 
             <div class="footer">
               <div class="contact">
