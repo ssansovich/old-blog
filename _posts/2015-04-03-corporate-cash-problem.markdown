@@ -4,7 +4,7 @@ title:  "Tech's $500 Billion Cash Problem"
 date:   2015-04-03 22:20:00
 ---
 
-![meeting]({{ site.url }}/images/goboard.jpg)
+![cash]({{ site.url }}/images/corporatecash/cash-header.jpg)
 
 Corporate cash levels have been steadily – and quickly – rising since the 1980s. Companies in the S&P 500 set a record in 2014 for the amount of cash held at $1.43 trillion (excluding financial institutions). Technology companies hold a large portion of this cash at over $500 billion [[1]][moodys], despite outsized levels of both R&D investment and acquisition activity.
 
