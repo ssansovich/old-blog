@@ -55,7 +55,7 @@
             <ul>
               <li><a target="_blank" href="http://www.twitter.com/slsansovich">Twitter</a></li>
               <li><a target="_blank" href="http://www.linkedin.com/in/scottsansovich">LinkedIn</a></li>
-              <li><a target="_blank" href="mailto:ssansovich@gmail.com">Email</a></li>
+              <li><a href="mailto:ssansovich@gmail.com">Email</a></li>
             </ul>
           </div>
           <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 content">
@@ -65,6 +65,20 @@
             {% include sharing.html %}
 
             {% include footer.html %}
+
+            <script>
+            (function() {
+              var links = document.links;
+              for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+                // can also be
+                //  links[i].hostname != 'subdomain.example.com'
+                if (links[i].hostname != window.location.hostname) {
+                  links[i].target = '_blank';
+                  links[i].className += ' externalLink';
+                }
+              }
+            })();
+            </script>
         </div>
       </div>
   </body>

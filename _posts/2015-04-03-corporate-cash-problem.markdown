@@ -14,7 +14,7 @@ Just four tech firms – Apple, Microsoft, Google, and Cisco – together have $
 
 In a perfectly efficient system, cash is invested immediately into the areas that will maximize future cash flows. This tenet of Corporate Finance 101 implies than an accumulation of cash is 1) a symptom of inefficiencies in distributing/investing that cash, 2) the best “investment” at that time, or 3) some combination of these.
 
-Why then are companies – particularly technology companies – holding cash at record levels? What does this trend mean for the startup ecosystem and the technology space in general? What does it mean in the context of all of the recent “bubble talk?”
+Why are companies – particularly technology companies – holding cash at record levels? What does this trend mean for the startup ecosystem and the technology space in general? What does it mean in the context of all of the recent “bubble talk?”
 
 ### A Macro View
 
@@ -47,6 +47,8 @@ NOTE: Each line corresponds to the subindex within the S&P 500 with the identifi
 Notably, the cash-to-asset ratio increased dramatically after 2000 and again after 2008, implying that increases in cash levels correlate with periods of macroeconomic uncertainty.
 
 Two things might explain these jumps in cash levels. First, firms scale back investment in R&D projects, which are by their very nature uncertain and can compound risk with the economic situation. Second, they become more conservative in their acquisition strategies, likely pressured by the financial sector as its confidence falls with the stock prices.
+
+In a sense, high cash levels look like a lagging indicator of market downturns.
 
 Finally, Sanchez and Yurdgul point out that a principle reason for cash accumulation is the burden of repatriation taxes. In times of limited foreign investment opportunity and increasing foreign income, cash is held overseas in order to avoid taxes that would need to be paid once the money is brought back into the US. We will touch upon this later.
 
