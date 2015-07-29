@@ -13,7 +13,7 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
-        <link rel="icon" type="image/gif" href="/images/favicon.gif">
+        <link rel="icon" type="image/gif" href="/images/favicon.png">
         <link href='http://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
 
         <script>
@@ -22,7 +22,7 @@
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-          ga('create', 'UA-48295337-1', 'sansovi.ch');
+          ga('create', 'UA-61856434-1', 'auto');
           ga('send', 'pageview');
 
         </script>
@@ -30,25 +30,55 @@
     </head>
     <body>
 
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId      : '967368733275550',
+            xfbml      : true,
+            version    : 'v2.3'
+          });
+        };
+
+        (function(d, s, id){
+           var js, fjs = d.getElementsByTagName(s)[0];
+           if (d.getElementById(id)) {return;}
+           js = d.createElement(s); js.id = id;
+           js.src = "//connect.facebook.net/en_US/sdk.js";
+           fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));
+      </script>
+
       <div class="container">
         <div class="row">
-          <div class="col-sm-3 col-xs-12">
+          <div class="header col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
             <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a target="_blank" href="http://www.twitter.com/slsansovich">@slsansovich</a>
+            <ul>
+              <li><a target="_blank" href="http://www.twitter.com/slsansovich">Twitter</a></li>
+              <li><a target="_blank" href="http://www.linkedin.com/in/scottsansovich">LinkedIn</a></li>
+              <li><a href="mailto:ssansovich@gmail.com">Email</a></li>
+            </ul>
           </div>
-          <div class="col-sm-6 content">
+          <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 content">
 
             {{ content }}
 
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Scott Sansovich<br/>
-                  <a href="https://twitter.com/slsansovich" target="_blank">@slsansovich</a>
-                </p>
-              </div>
-            </div>
+            {% include sharing.html %}
 
+            {% include footer.html %}
+
+            <script>
+            (function() {
+              var links = document.links;
+              for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+                // can also be
+                //  links[i].hostname != 'subdomain.example.com'
+                if (links[i].hostname != window.location.hostname) {
+                  links[i].target = '_blank';
+                  links[i].className += ' externalLink';
+                }
+              }
+            })();
+            </script>
         </div>
       </div>
   </body>

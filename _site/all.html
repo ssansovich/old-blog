@@ -13,7 +13,7 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
-        <link rel="icon" type="image/gif" href="/images/favicon.gif">
+        <link rel="icon" type="image/gif" href="/images/favicon.png">
         <link href='http://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
 
         <script>
@@ -30,16 +30,40 @@
     </head>
     <body>
 
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId      : '967368733275550',
+            xfbml      : true,
+            version    : 'v2.3'
+          });
+        };
+
+        (function(d, s, id){
+           var js, fjs = d.getElementsByTagName(s)[0];
+           if (d.getElementById(id)) {return;}
+           js = d.createElement(s); js.id = id;
+           js.src = "//connect.facebook.net/en_US/sdk.js";
+           fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));
+      </script>
+
       <div class="container">
         <div class="row">
-          <div class="col-sm-3 col-xs-12">
+          <div class="header col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
             <h1 class="title"><a href="/">Scott Sansovich</a></h1>
-            <a target="_blank" href="http://www.twitter.com/slsansovich">@slsansovich</a>
+            <ul>
+              <li><a target="_blank" href="http://www.twitter.com/slsansovich">Twitter</a></li>
+              <li><a target="_blank" href="http://www.linkedin.com/in/scottsansovich">LinkedIn</a></li>
+              <li><a href="mailto:ssansovich@gmail.com">Email</a></li>
+            </ul>
           </div>
-          <div class="col-sm-6 content">
+          <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 content">
 
             <div id="home"> 
   <ul class="posts">
+    
+      <li><span class="meta">03 Apr 2015</span> &raquo; <a href="/2015/04/03/corporate-cash-problem.html">Tech's $500 Billion Cash Problem</a></li>
     
       <li><span class="meta">30 Jul 2014</span> &raquo; <a href="/2014/07/30/competition-pitch.html">The Other Team: How to talk about the competition in a pitch</a></li>
     
@@ -56,15 +80,72 @@
   </ul>
 </div>
 
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Scott Sansovich<br/>
-                  <a href="https://twitter.com/slsansovich" target="_blank">@slsansovich</a>
-                </p>
-              </div>
-            </div>
+            <div class="sharing">
 
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="slsansovich" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-layout="button"
+  data-share="true">
+</div>
+
+<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+<script type="IN/Share" data-url="http://scottsansovich.com/all.html"></script>
+
+<!-- Begin MailChimp Signup Form -->
+
+<div id="mc_embed_signup" class="row">
+<form action="//scottsansovich.us10.list-manage.com/subscribe/post?u=33e680bf523083f1b709a11c8&amp;id=8100e9d5c2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+      <div class="col-sm-12">
+        <h3>Get more updates from Scott:</h3>
+        <div class="mc-field-group">
+          <input type="email" value="" name="EMAIL" class="required email col-sm-6 col-xs-12" id="mce-EMAIL" placeholder="Email">
+        </div>
+      </div>
+      <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+      </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;"><input type="text" name="b_33e680bf523083f1b709a11c8_8100e9d5c2" tabindex="-1" value=""></div>
+      <div class="col-sm-3 col-xs-12"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button col-sm-12 col-xs-12"></div>
+    </div>
+</form>
+</div>
+<!--End mc_embed_signup-->
+
+</div>
+
+
+            <div class="footer">
+  <!--
+  <div class="contact">
+    <p>
+      Scott Sansovich<br/>
+      <a href="https://twitter.com/slsansovich" target="_blank">@slsansovich</a>
+    </p>
+  </div>
+  -->
+</div>
+
+
+            <script>
+            (function() {
+              var links = document.links;
+              for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+                // can also be
+                //  links[i].hostname != 'subdomain.example.com'
+                if (links[i].hostname != window.location.hostname) {
+                  links[i].target = '_blank';
+                  links[i].className += ' externalLink';
+                }
+              }
+            })();
+            </script>
         </div>
       </div>
   </body>
