@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-banner
 title:  "Questions You Should Always Ask VC Associates"
 date:   2014-03-21 18:40:00
 ---
